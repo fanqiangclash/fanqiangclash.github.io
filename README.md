@@ -1,4 +1,4 @@
-# 「6月13日」最高速度20.2M/S，2025年Shadowrocket/Clash/SSR/V2ray每天更新免费节点订阅链接  更新时间 2025-06-13 09:20:02
+# 「6月18日」最高速度19.1M/S，2025年V2ray/Clash/SSR/Shadowrocket每天更新免费节点订阅链接  更新时间 2025-06-18 09:20:10
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://fanqiangclash.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://fanqiangclash.github.io/uploads/2025/06/0-20250613.yaml
-- https://fanqiangclash.github.io/uploads/2025/06/1-20250613.yaml
-- https://fanqiangclash.github.io/uploads/2025/06/2-20250613.yaml
-- https://fanqiangclash.github.io/uploads/2025/06/3-20250613.yaml
-- https://fanqiangclash.github.io/uploads/2025/06/4-20250613.yaml
+- https://fanqiangclash.github.io/uploads/2025/06/0-20250618.yaml
+- https://fanqiangclash.github.io/uploads/2025/06/1-20250618.yaml
+- https://fanqiangclash.github.io/uploads/2025/06/2-20250618.yaml
+- https://fanqiangclash.github.io/uploads/2025/06/3-20250618.yaml
+- https://fanqiangclash.github.io/uploads/2025/06/4-20250618.yaml
 
 ### V2ray订阅链接
 
-- https://fanqiangclash.github.io/uploads/2025/06/0-20250613.txt
-- https://fanqiangclash.github.io/uploads/2025/06/1-20250613.txt
-- https://fanqiangclash.github.io/uploads/2025/06/2-20250613.txt
-- https://fanqiangclash.github.io/uploads/2025/06/3-20250613.txt
-- https://fanqiangclash.github.io/uploads/2025/06/4-20250613.txt
+- https://fanqiangclash.github.io/uploads/2025/06/0-20250618.txt
+- https://fanqiangclash.github.io/uploads/2025/06/1-20250618.txt
+- https://fanqiangclash.github.io/uploads/2025/06/2-20250618.txt
+- https://fanqiangclash.github.io/uploads/2025/06/3-20250618.txt
+- https://fanqiangclash.github.io/uploads/2025/06/4-20250618.txt
 
 ### Sing-box订阅链接
 
-- https://fanqiangclash.github.io/uploads/2025/06/20250613.json
+- https://fanqiangclash.github.io/uploads/2025/06/20250618.json
 
 ## 更多clash节点订阅 ：
 
