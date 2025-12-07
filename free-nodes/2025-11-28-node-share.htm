@@ -331,6 +331,26 @@ A4：不一定，测速基于少量ICMP或HTTP请求，有可能仍能通过。�
         QuantumultX 使用分流规则与脚本结合的方式实现广告屏蔽。通过重写 HTTP 请求和阻止特定域名，它能有效去除 App 内广告或网页弹窗，提升浏览体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>VLESS + XTLS 模式适合移动网络吗？</h5></div>
+    <div class="panel-body">
+        XTLS 模式降低加密开销，减少握手次数，适合高延迟或不稳定移动网络。结合策略组和多出口节点，可提升访问速度和连接稳定性，确保用户体验流畅。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>PassWall2 如何自动切换最佳节点？</h5></div>
+    <div class="panel-body">
+        通过延迟测速和策略组设置，PassWall2 可自动选择延迟最低的节点处理流量。用户无需手动切换节点，保证网页、视频和游戏流量的速度和稳定性，提高整体网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekobox 可以与 Shadowsocks 等客户端同时使用吗？</h5></div>
+    <div class="panel-body">
+        可以。Nekobox 配置独立，与 Shadowsocks、Clash 等客户端互不干扰。用户可根据需要通过策略组选择节点，实现灵活的网络管理和分流策略。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekobox 是否可以与 Shadowsocks 客户端共存？</h5></div>
+    <div class="panel-body">
+        可以。Nekobox 配置独立，不影响其他客户端运行。用户可以同时使用 Shadowsocks、Clash 等客户端，通过策略组或分流规则选择合适节点，互不干扰。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 如何针对不同用户设置流量配额？</h5></div>
     <div class="panel-body">
         管理员可以为每个用户单独设置流量上限或带宽限制。超过配额时可自动阻止或降速，保证服务器资源合理分配，避免单用户占用过多带宽影响其他用户。<hr />    </div>
@@ -341,39 +361,19 @@ A4：不一定，测速基于少量ICMP或HTTP请求，有可能仍能通过。�
         通过配置域名列表或 IP 段，将国内流量指向直连出口，而国外流量走代理节点。结合策略组和定期更新规则，可保持国内访问速度，同时优化海外访问体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 是否还值得使用？</h5></div>
-    <div class="panel-body">
-        虽然 SSR 的开发早已停止，但由于它配置简单且部分节点仍然兼容，仍有一定使用场景。不过建议用户逐步迁移到更安全的新协议如 VLESS 或 Trojan，以获得更佳性能与隐蔽性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 如何自动切换最佳节点？</h5></div>
-    <div class="panel-body">
-        通过延迟测速和策略组设置，PassWall2 可自动选择延迟最低的节点处理流量。用户无需手动切换节点，保证网页、视频和游戏流量的速度和稳定性，提高整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 如何实现分应用代理？</h5></div>
-    <div class="panel-body">
-        Clash 可通过策略组和规则文件按应用分流，将特定应用的流量转发到指定节点。例如游戏走低延迟节点，网页浏览走普通节点，实现高效分流和优化网络速度。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS + XTLS 模式适合移动网络吗？</h5></div>
-    <div class="panel-body">
-        XTLS 模式降低加密开销，减少握手次数，适合高延迟或不稳定移动网络。结合策略组和多出口节点，可提升访问速度和连接稳定性，确保用户体验流畅。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekobox 可以与 Shadowsocks 等客户端同时使用吗？</h5></div>
-    <div class="panel-body">
-        可以。Nekobox 配置独立，与 Shadowsocks、Clash 等客户端互不干扰。用户可根据需要通过策略组选择节点，实现灵活的网络管理和分流策略。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>如何使用 Clash 配置订阅链接？</h5></div>
     <div class="panel-body">
         在 Clash 中添加订阅链接时，用户需复制提供的 URL 并在客户端的配置界面中粘贴。Clash 会自动下载并更新配置文件。通过订阅，用户可以一键更新节点信息，无需手动导入，适合长期维护多个节点来源的用户。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekobox 是否可以与 Shadowsocks 客户端共存？</h5></div>
+    <div class="panel-heading"><h5>SSR 是否还值得使用？</h5></div>
     <div class="panel-body">
-        可以。Nekobox 配置独立，不影响其他客户端运行。用户可以同时使用 Shadowsocks、Clash 等客户端，通过策略组或分流规则选择合适节点，互不干扰。    </div>
+        虽然 SSR 的开发早已停止，但由于它配置简单且部分节点仍然兼容，仍有一定使用场景。不过建议用户逐步迁移到更安全的新协议如 VLESS 或 Trojan，以获得更佳性能与隐蔽性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 如何实现分应用代理？</h5></div>
+    <div class="panel-body">
+        Clash 可通过策略组和规则文件按应用分流，将特定应用的流量转发到指定节点。例如游戏走低延迟节点，网页浏览走普通节点，实现高效分流和优化网络速度。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -402,16 +402,16 @@ A4：不一定，测速基于少量ICMP或HTTP请求，有可能仍能通过。�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-10-10-free-high-speed-nodes.htm" title="「10月10日」最高速度18.2M/S，2025年Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点每天更新免费节点订阅链接">「10月10日」最高速度18.2M/S，2025年Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-8-free-node-subscribe-links.htm" title="「10月8日」最高速度22.3M/S，2025年Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点每天更新免费节点订阅链接">「10月8日」最高速度22.3M/S，2025年Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-17-node-share.htm" title="「11月17日」最高速度21.5M/S，2025年Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点每天更新免费节点订阅链接">「11月17日」最高速度21.5M/S，2025年Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-12-free-subscribe-node.htm" title="「10月12日」最高速度18.9M/S，2025年SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点每天更新免费节点订阅链接">「10月12日」最高速度18.9M/S，2025年SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-17-node-share.htm" title="「10月17日」最高速度20.7M/S，2025年Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点每天更新免费节点订阅链接">「10月17日」最高速度20.7M/S，2025年Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-3-free-node-subscribe-links.htm" title="「10月3日」最高速度22.9M/S，2025年SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点每天更新免费节点订阅链接">「10月3日」最高速度22.9M/S，2025年SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-19-free-node-subscribe.htm" title="「11月19日」最高速度21.8M/S，2025年SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点每天更新免费节点订阅链接">「11月19日」最高速度21.8M/S，2025年SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-2-free-v2ray.htm" title="「11月2日」最高速度18.7M/S，2025年V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点每天更新免费节点订阅链接">「11月2日」最高速度18.7M/S，2025年V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-30-free-high-speed-nodes.htm" title="「11月30日」最高速度22.5M/S，2025年Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点每天更新免费节点订阅链接">「11月30日」最高速度22.5M/S，2025年Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点每天更新免费节点订阅链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-23-free-node-subscribe.htm" title="「11月23日」最高速度22.9M/S，2025年V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点每天更新免费节点订阅链接">「11月23日」最高速度22.9M/S，2025年V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-11-free-node-subscribe.htm" title="「11月11日」最高速度20.2M/S，2025年V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点每天更新免费节点订阅链接">「11月11日」最高速度20.2M/S，2025年V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-28-node-share.htm" title="「11月28日」最高速度20.9M/S，2025年Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点每天更新免费节点订阅链接">「11月28日」最高速度20.9M/S，2025年Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-22-node-share.htm" title="「11月22日」最高速度21.3M/S，2025年Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点每天更新免费节点订阅链接">「11月22日」最高速度21.3M/S，2025年Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-1-free-v2ray-subscribe.htm" title="「12月1日」最高速度18M/S，2025年SSR节点/V2ray节点/Singbox节点/Shadowrocket节点/Clash节点每天更新免费节点订阅链接">「12月1日」最高速度18M/S，2025年SSR节点/V2ray节点/Singbox节点/Shadowrocket节点/Clash节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-7-node-share.htm" title="「12月7日」最高速度19.8M/S，2025年SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点每天更新免费节点订阅链接">「12月7日」最高速度19.8M/S，2025年SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-7-free-subscribe-node.htm" title="「11月7日」最高速度22.8M/S，2025年SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Clash节点每天更新免费节点订阅链接">「11月7日」最高速度22.8M/S，2025年SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Clash节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-29-free-v2ray-subscribe.htm" title="「11月29日」最高速度21.9M/S，2025年Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点每天更新免费节点订阅链接">「11月29日」最高速度21.9M/S，2025年Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-6-free-subscribe-node.htm" title="「12月6日」最高速度20.5M/S，2025年Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点每天更新免费节点订阅链接">「12月6日」最高速度20.5M/S，2025年Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-18-free-v2ray.htm" title="「11月18日」最高速度20.3M/S，2025年Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点每天更新免费节点订阅链接">「11月18日」最高速度20.3M/S，2025年Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-5-free-node-subscribe-links.htm" title="「12月5日」最高速度21.1M/S，2025年Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点每天更新免费节点订阅链接">「12月5日」最高速度21.1M/S，2025年Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点每天更新免费节点订阅链接</a></li>
                     </ul>
     </div>
 </div>
@@ -423,10 +423,10 @@ A4：不一定，测速基于少量ICMP或HTTP请求，有可能仍能通过。�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">7</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                     </ul>
     </div>
