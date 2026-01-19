@@ -1,4 +1,4 @@
-# 「1月11日」最高速度22.2M/S，2025年Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点每天更新免费节点订阅链接  更新时间 2026-01-11 09:12:01
+# 「1月19日」最高速度19.3M/S，2025年Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点每天更新免费节点订阅链接  更新时间 2026-01-19 09:00:50
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://fanqiangclash.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://fanqiangclash.github.io/uploads/2026/01/0-20260111.yaml
-- https://fanqiangclash.github.io/uploads/2026/01/1-20260111.yaml
-- https://fanqiangclash.github.io/uploads/2026/01/2-20260111.yaml
-- https://fanqiangclash.github.io/uploads/2026/01/3-20260111.yaml
-- https://fanqiangclash.github.io/uploads/2026/01/4-20260111.yaml
+- https://fanqiangclash.github.io/uploads/2026/01/0-20260119.yaml
+- https://fanqiangclash.github.io/uploads/2026/01/1-20260119.yaml
+- https://fanqiangclash.github.io/uploads/2026/01/2-20260119.yaml
+- https://fanqiangclash.github.io/uploads/2026/01/3-20260119.yaml
+- https://fanqiangclash.github.io/uploads/2026/01/4-20260119.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://fanqiangclash.github.io/uploads/2026/01/0-20260111.txt
-- https://fanqiangclash.github.io/uploads/2026/01/1-20260111.txt
-- https://fanqiangclash.github.io/uploads/2026/01/2-20260111.txt
-- https://fanqiangclash.github.io/uploads/2026/01/3-20260111.txt
-- https://fanqiangclash.github.io/uploads/2026/01/4-20260111.txt
+- https://fanqiangclash.github.io/uploads/2026/01/0-20260119.txt
+- https://fanqiangclash.github.io/uploads/2026/01/1-20260119.txt
+- https://fanqiangclash.github.io/uploads/2026/01/2-20260119.txt
+- https://fanqiangclash.github.io/uploads/2026/01/3-20260119.txt
+- https://fanqiangclash.github.io/uploads/2026/01/4-20260119.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://fanqiangclash.github.io/uploads/2026/01/20260111.json
+- https://fanqiangclash.github.io/uploads/2026/01/20260119.json
 
 ## 更多Clash节点订阅 ：
 
